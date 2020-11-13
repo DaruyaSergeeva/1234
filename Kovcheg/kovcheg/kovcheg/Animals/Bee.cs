@@ -11,7 +11,7 @@ namespace kovcheg.Animals
         string _name;
         int _eyes = 5;
         int _paws = 6;
-        int _teil = 0;
+        int _sting = 1;
 
         public string Name
         {
@@ -24,6 +24,9 @@ namespace kovcheg.Animals
                 _name = $"{value}";
             }
         }
+        /// <summary>
+        /// Глаза
+        /// </summary>
         public int Eyes
         {
             get
@@ -35,8 +38,10 @@ namespace kovcheg.Animals
                 _eyes = value;
             }
         }
-
-        public int Paws //лапы
+        /// <summary>
+        /// Лапы
+        /// </summary>
+        public int Paws 
         {
             get
             {
@@ -47,23 +52,25 @@ namespace kovcheg.Animals
                 _paws = value;
             }
         }
-
-        public int Teil //хвост
+        /// <summary>
+        /// Жало
+        /// </summary>
+        public int Sting 
         {
             get
             {
-                return _teil;
+                return _sting;
             }
             set
             {
-                _teil = value;
+                _sting = value;
             }
         }
 
         public override void GetInfo()
         {
             Console.WriteLine($"It`s a bee, her name is {Name}");
-            Console.WriteLine($"She has {Eyes} eyes, {Paws} paws and {Teil} teil!");
+            Console.WriteLine($"Bee has {Eyes} eyes, {Paws} paws and {Sting} sting, it stings painfully!!!");
         }
         public Bee(string name) : base(true)
         {

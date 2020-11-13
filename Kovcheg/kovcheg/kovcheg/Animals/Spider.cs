@@ -13,7 +13,9 @@ namespace kovcheg.Animals
         int _paws = 8;
         int _teil = 0;
 
- 
+        /// <summary>
+        /// Имя
+        /// </summary>
         public string Name
         {
             get
@@ -25,6 +27,9 @@ namespace kovcheg.Animals
                 _name = $"{value}";
             }
         }
+        /// <summary>
+        /// Глаза
+        /// </summary>
         public int Eyes
         {
             get
@@ -36,8 +41,10 @@ namespace kovcheg.Animals
                 _eyes = value;
             }
         }
-
-        public int Paws //лапы
+        /// <summary>
+        /// Лапы
+        /// </summary>
+        public int Paws 
         {
             get
             {
@@ -48,8 +55,10 @@ namespace kovcheg.Animals
                 _paws = value;
             }
         }
-
-        public int Teil //хвост
+        /// <summary>
+        /// Хвост
+        /// </summary>
+        public int Teil 
         {
             get
             {
@@ -64,7 +73,7 @@ namespace kovcheg.Animals
         public override void GetInfo()
         {
             Console.WriteLine($"It`s a spider, his name is {Name}");
-            Console.WriteLine($"He has {Eyes} eyes, {Paws} paws and {Teil} teil!");
+            Console.WriteLine($"Sppider has {Eyes} eyes, {Paws} paws and {Teil} teil!");
         }
         public Spider(string name) : base(true)
         {

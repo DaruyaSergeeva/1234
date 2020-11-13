@@ -8,6 +8,9 @@ namespace kovcheg.Animals
 {
     abstract class Animal:IMove
     {
+        /// <summary>
+        /// Жизнь
+        /// </summary>
         public bool IsLive;
         public Animal(bool isLive)
         {

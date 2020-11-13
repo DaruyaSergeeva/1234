@@ -5,3 +5,9 @@ C:\Users\Acer\Desktop\Курсы\Массив животных(дз1)\Kovcheg\ko
 C:\Users\Acer\Desktop\Курсы\Массив животных(дз1)\Kovcheg\kovcheg\kovcheg\bin\Debug\kovcheg.pdb
 C:\Users\Acer\Desktop\Курсы\Массив животных(дз1)\Kovcheg\kovcheg\kovcheg\obj\Debug\kovcheg.exe
 C:\Users\Acer\Desktop\Курсы\Массив животных(дз1)\Kovcheg\kovcheg\kovcheg\obj\Debug\kovcheg.pdb
+C:\Temp\сдк\1234\Kovcheg\kovcheg\kovcheg\bin\Debug\kovcheg.exe.config
+C:\Temp\сдк\1234\Kovcheg\kovcheg\kovcheg\bin\Debug\kovcheg.exe
+C:\Temp\сдк\1234\Kovcheg\kovcheg\kovcheg\bin\Debug\kovcheg.pdb
+C:\Temp\сдк\1234\Kovcheg\kovcheg\kovcheg\obj\Debug\kovcheg.csprojResolveAssemblyReference.cache
+C:\Temp\сдк\1234\Kovcheg\kovcheg\kovcheg\obj\Debug\kovcheg.exe
+C:\Temp\сдк\1234\Kovcheg\kovcheg\kovcheg\obj\Debug\kovcheg.pdb
