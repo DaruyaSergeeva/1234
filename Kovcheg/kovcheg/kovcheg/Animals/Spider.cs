@@ -9,9 +9,9 @@ namespace kovcheg.Animals
     class Spider:Animal
     {
         string _name;
-        int _eyes = 8;
-        int _paws = 8;
-        int _teil = 0;
+        int _eyes;
+        int _paws;
+        int _teil;
 
         /// <summary>
         /// Имя
@@ -69,16 +69,33 @@ namespace kovcheg.Animals
                 _teil = value;
             }
         }
-
-        public override void GetInfo()
+        public override string GetInfo()
         {
-            Console.WriteLine($"It`s a spider, his name is {Name}");
-            Console.WriteLine($"Sppider has {Eyes} eyes, {Paws} paws and {Teil} teil!");
+            return "Animal name is " + _name;
         }
-        public Spider(string name) : base(true)
+        
+        public Spider (string name, int eyes, int paws, int teil) : base(true)
         {
             _name = name;
-
+            int _eyes = eyes;
+            int _paws = paws;
+            int _teil = teil;
         }
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+/* public override void GetInfo()
+         {
+             Console.WriteLine($"It`s a spider, his name is {Name}");
+             Console.WriteLine($"Sppider has {Eyes} eyes, {Paws} paws and {Teil} teil!");
+         }*/

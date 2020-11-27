@@ -9,9 +9,9 @@ namespace kovcheg.Animals
     class Bee:Animal
     {
         string _name;
-        int _eyes = 5;
-        int _paws = 6;
-        int _sting = 1;
+        int _eyes ;
+        int _paws ;
+        int _sting ;
 
         public string Name
         {
@@ -66,16 +66,17 @@ namespace kovcheg.Animals
                 _sting = value;
             }
         }
-
-        public override void GetInfo()
+        
+        public override string GetInfo()
         {
-            Console.WriteLine($"It`s a bee, her name is {Name}");
-            Console.WriteLine($"Bee has {Eyes} eyes, {Paws} paws and {Sting} sting, it stings painfully!!!");
+            return "Animal name is " + _name;
         }
-        public Bee(string name) : base(true)
+        public Bee(string name, int eyes, int paws, int sting) : base(true)
         {
             _name = name;
-          
+            int _eyes = eyes;
+            int _paws = paws;
+            int _sting = sting;
         }
     }
 }

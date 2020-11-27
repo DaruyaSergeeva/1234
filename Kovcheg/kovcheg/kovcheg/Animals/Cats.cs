@@ -8,10 +8,10 @@ namespace kovcheg.Animals
 {
     class Cats:Animal
     {
-        string _name;
-        int _eyes = 2;
-        int _paws = 4;
-        int _teil = 1;
+       /* string _name;
+        int _eyes ;
+        int _paws ;
+        int _teil ;*/
         
         /// <summary>
         /// Имя
@@ -70,15 +70,37 @@ namespace kovcheg.Animals
             }
         }
 
-        public override void GetInfo()
+        public override string GetInfo()
         {
-            Console.WriteLine($"It`s a cat, his name is {Name}");
-            Console.WriteLine($"Cat has {Eyes} eyes, {Paws} paws and {Teil} teil!");
+            return "Animal name is " + _name;
         }
-        public Cats(string name) : base(true)
+        public Cats(string Name, int Eyes, int Paws, int Teil) : base(true)
         {
-            _name = name;
-       
+            _name = Name;
+            int _eyes = Eyes;
+            int _paws = Paws;
+            int _teil = Teil;
         }
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*public override void GetInfo()
+{
+    Console.WriteLine($"It`s a cat, his name is {Name}");
+    Console.WriteLine($"Cat has {Eyes} eyes, {Paws} paws and {Teil} teil!");
+}*/

@@ -9,6 +9,6 @@ namespace kovcheg.Animals
     interface IMove
     {
         void Live();
-        void GetInfo();
+        string GetInfo();
     }
 }
